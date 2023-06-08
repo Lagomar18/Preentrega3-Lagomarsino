@@ -1,0 +1,30 @@
+// Estilos generales
+.body-general {
+    background-color: $body-background-color;
+    color: $body-color;
+    
+    // Estilos para el encabezado
+    .header-general {
+        background-color: lightgrey;
+        color: black;
+        text-align: center;
+        padding: 15px;
+    }
+
+    header img {
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding-top: 40px;
+    }
+
+    h1 {
+        margin-top: 0;
+        color: lightgrey;
+        text-align: center;
+    }
+}

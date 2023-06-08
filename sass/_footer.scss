@@ -1,0 +1,33 @@
+// Estilos del pie de página
+.footer {
+    background-color: rgba(255, 255, 255, 0.829);
+    padding: 10px;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-md-12 {
+        flex-basis: 100%;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            margin-right: 10px;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
