@@ -3,18 +3,6 @@
   background-color: black;
   color: lightgrey;
 }
-.body-general .header-general {
-  background-color: lightgrey;
-  color: black;
-  text-align: center;
-  padding: 15px;
-}
-.body-general header img {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
 .body-general main {
   padding-top: 40px;
 }
@@ -225,7 +213,7 @@ section a img {
 
 .container-img {
   width: 90%;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -236,7 +224,20 @@ section a img {
 .carousel-item img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.header-general {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+}
+
+header img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=styles.css.map */
